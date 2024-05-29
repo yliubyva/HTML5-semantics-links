@@ -6,6 +6,89 @@
     <title>Семантика, посилання і HTML5 теги</title>
 </head>
 <body>
+    <article>
+        <h1>HTML5 Семантичні елементи</h1>
+        <section>
+            <p>Семантичний елемент чітко описує його значення як для браузера, так і
+            для розробника.</p>
+            <p>Приклади <strong>не семантичних</strong> елементів: &lt;div> і &lt;span> - нічого не говорить
+            про його вміст.</p>
+            <p>Приклади <strong>семантичних</strong> елементів: &lt;form>, &lt;table>і &lt;article> - чітко
+            визначає його зміст.</p>
+        </section>
+
+        <section>
+            <h2>Підтримка браузерів</h2>
+            <img src="image/browsers.png" alt="browsers" width="300">
+            <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+            <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".</p>
+            <p>Прочитайте про це в <a href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#">підтримці браузера HTML5.</a></p>
+        </section>
+
+        <section>
+            <h2>Нові семантичні елементи в HTML5</h2>
+            <p>HTML5 пропонує нові семантичні елементи для визначення різних частин
+                веб-сторінки:</p>
+            <ul>
+                <li><a href="#section">&lt;section></a></li>
+                <li><a href="#article">&lt;article></a></li>
+                <li><a href="#header">&lt;header></a></li>
+                <li><a href="#footer">&lt;footer></a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="section">HTML5 &lt;section> елемент</h2>
+            <p>Елемент &lt;section> визначає розділ в документі.</p>
+            <p>Згідно з документацією в3к'с HTML5: "розділ представляє собою
+            тематичну угруповання контенту, зазвичай з заголовком".</p>
+            <p>Домашня сторінка зазвичай може бути розділена на розділи для
+            ознайомлення, змісту і контактної інформації.</p>
+            <img src="image/eg-section.png" alt="example <section>" width="700">
+        </section>
+
+        <section>
+            <h2 id="article">HTML5 &lt;article> елемент</h2>
+            <p>Елемент &lt;article> визначає незалежний, автономний вміст.</p>
+            <p>Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+            читати його незалежно від іншої частини веб-сайту.</p>
+            <p>Приклади того, де можна використовувати елемент &lt;article>:</p>
+            <ul>
+                <li>Повідомлення на форумі</li>
+                <li>блозі</li>
+                <li>Газетна стаття</li>
+            </ul>
+            <img src="image/eg-article.png" alt="example <article>" width="700">
+        </section>
+
+        <section>
+            <h2 id="header">HTML5 &lt;header> елемент</h2>
+            <p>Елемент &lt;header> задає заголовок для документа або розділу.</p>
+            <p>Елемент &lt;header> повинен використовуватися в якості контейнера для
+            вступного змісту.</p>
+            <p>В одному документі може бути кілька елементів &lt;header>.</p>
+            <p>У наступному прикладі визначається заголовок для статті:</p>
+            <img src="image/eg-header.png" alt="example <header>" width="700">
+        </section>
+
+        <section>
+            <h2 id="footer">HTML5 &lt;footer> елемент</h2>
+            <p>Елемент &lt;footer> вказує нижній колонтитул для документа або розділу.</p>
+            <p>Нижній колонтитул зазвичай містить автора документа, інформацію про
+                авторське право, посилання на умови використання, контактні дані і т.д.</p>
+            <p>В одному документі може бути кілька елементів &lt;footer>.</p>
+            <img src="image/eg-footer.png" alt="example <footer>" width="700">
+        </section>
+    </article>
     
+    <article>
+        <h2>My CV</h2>
+        <iframe src="cv/index.html" width="800" height="600" title="my-cv"></iframe>
+    </article>
+
+    <article>
+        <h2>Front-end розробка. Сучасні тренди.</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU?list=PLytQ0YczAfcdj-OUqWO20vPsr0ix0M1Us"></iframe>
+    </article>
 </body>
 </html>
